@@ -813,6 +813,9 @@ header #logo img {
   overflow: hidden;
   position: relative;
 }
+.portfolio-home .box-container .box1 {
+  display: none;
+}
 
 .portfolio-home .box-container .box:hover .content {
   -webkit-transform: translateY(0%);
