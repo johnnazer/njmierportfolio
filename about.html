@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="/images/Nj Logo-04.png">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <a href="./" id="logo" class="animate__animated  animate__slideInLeft"><img src="images/Nj Logo-02.png" alt=""></a>
+
+    <nav class="animate__animated animate__fadeIn">
+        <ul>
+            <li><a class="" href="./">home</a></li>
+            <li><a class="header-about" href="./about">about</a></li>
+            <li><a class="" href="./services">services</a></li>
+            <li><a class="" href="./portfolio">portfolio</a></li>
+            <li><a class="button" href="./contact">contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="fas fa-bars"></div>
+    
+</header>
+    
+<!-- header section ends -->
+
+<!-- about section starts  -->
+
+<section class="about">
+
+    <h1 class="animate__animated  animate__fadeInLeft" id="heading"> about <span>me</span> </h1>
+    <div class="row">
+
+        
+        <div class="info-container">
+
+            <h1 class="animate__animated  animate__fadeInDown">personal info</h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <h3 class="animate__animated  animate__fadeInDown"> <span>name : </span> Naeil John Mier </h3>
+                    <h3 class="animate__animated  animate__fadeInDown"> <span>email : </span> johnmier26@gmail.com </h3>
+                    <h3 class="animate__animated  animate__fadeInDown"> <span>address : </span> Pasig, Philippines</h3>
+                </div>
+            </div>
+            <a href="#" class="btn-cv"> download CV <i class="fas fa-download"></i> </a>
+
+        </div>
+        
+        <div class="count-container">
+
+            <div class="box">
+                <h3>3+</h3>
+                <p>years of experience</p>
+            </div>
+
+            <div class="box">
+                <h3>12</h3>
+                <p>project completed</p>
+            </div>
+            <div class="box">
+                <h3>500+</h3>
+                <p>Graphic Design Images</p>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- softwares section starts  -->
+
+<section class="softwares">
+
+    <div class="box-container">
+        <div class="box-border">
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/wordpress.png">
+                
+            </div>
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/woocomm.png">
+                
+            </div>
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/elementor.png">
+                
+            </div>
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/Softwares-01.png">
+            
+            </div>
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/Softwares-02.png">
+                
+            </div>
+            <div class="box">
+                <img class="animate__animated  animate__zoomIn" src="images/Softwares-03.png">
+            
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- softwares section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contactme">
+
+    <div class="animate__animated  animate__slideInLeft" id="content">
+        <h3>Let me help you</h3>
+        <h2>Got a project? <span>Let's Talk</span></h2>
+        <p>If you are a business owner seeking for a web presence or an employer looking to hire, you can get in touch with me.</p>
+        <a href="./contact" class="btn">Let's get started<i class="fas fa-chevron-right"></i> </a>
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+    
+<section class="footer">
+    <div class="row">  
+            <div class="myweb">
+                <p class="animate__animated  animate__slideInLeft">NjMier Portfolio 2023</p>
+            </div>
+            <div class="animate__animated  animate__slideInRight" id="icons">
+            <a href="https://www.onlinejobs.ph/jobseekers/info/2541451" class="oljph">
+                <img src="images/oljph-blk-01.png" class="img-bot" alt="">
+                <img src="images/ojph.png" class="img-top" alt="">
+            </a>
+            <a href="www.linkedin.com/in/nj-mier" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+</section>
+
+<!-- footer section ends -->
+
+<script>
+
+    $(document).ready(function(){
+    
+    $('.fa-bars').click(function(){
+        $(this).toggleClass('fa-times');
+        $('nav').toggleClass('nav-toggle');
+    });
+
+   
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() < 20){
+            $('header').css('box-shadow','none');
+        }else{
+            $('header').css('box-shadow','0 .2rem .5rem #131313d0');
+        }
+    });
+    });
+    
+</script>
+
+</body>
+</html>
