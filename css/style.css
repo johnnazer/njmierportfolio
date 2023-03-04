@@ -268,7 +268,6 @@ header .fa-bars {
   cursor: pointer;
   z-index: 10;
   display: none;
-  -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
 
