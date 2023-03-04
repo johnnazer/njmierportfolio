@@ -11,14 +11,14 @@
   outline: none;
   border: none;
   text-transform: capitalize;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
+  
 }
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  
 }
 
 html::-webkit-scrollbar {
@@ -37,6 +37,7 @@ html::-webkit-scrollbar-thumb {
 body {
   background-color: #212121;
   padding-bottom: 0rem;
+  
 }
 
 section {
@@ -218,6 +219,7 @@ header {
   left: 0;
   background: #212121d6;
   z-index: 2;
+  
 }
 
 header nav ul {
@@ -266,7 +268,8 @@ header .fa-bars {
   cursor: pointer;
   z-index: 10;
   display: none;
-
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 header #logo {
