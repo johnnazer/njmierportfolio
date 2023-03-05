@@ -1142,10 +1142,10 @@ header #logo img {
   left: 0;
   z-index: 99;
 }
-.contact .icons a.oljph:hover .img-top{
+.contact .row #info-container .icons a.oljph:hover .img-top{
   display: inline;
 }
-.contact .icons a.oljph:hover .img-bot{
+.contact .row #info-container .icons a.oljph:hover .img-bot{
   display: none;
 }
 
@@ -1234,7 +1234,7 @@ h3.contact-info{
   .home {
     padding-top: 12rem;
     text-align: center;
-    gap: 4rem;
+    gap: 0rem;
   }
   
   header{
