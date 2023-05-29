@@ -415,7 +415,7 @@ header #logo img {
 }
 /*contactme*/
 .contactme {
-  /*background: url(https://i.postimg.cc/DfXQCkNn/contactbg.png) no-repeat;
+  /* background: url(https://i.postimg.cc/DfXQCkNn/contactbg.png) no-repeat;
   */background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(113, 113, 113, 0.5);
