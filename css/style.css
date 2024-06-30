@@ -373,7 +373,7 @@ header #logo img {
   text-decoration: none;
   font-size: 3rem;
   margin: 0 .6rem;
-  color: #1e72ae;
+  color: #175e8f;
 }
 
 .home #content .icons a img {
@@ -382,9 +382,9 @@ header #logo img {
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
-  border-color: #175e8f;
   margin-left: 3px;
   margin-right: -10px;
+  border-color: #175e8f;
 }
 
 .home #content .icons a img.img-top {
