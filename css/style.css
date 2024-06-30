@@ -384,7 +384,7 @@ header #logo img {
   border-width: 2px;
   margin-left: 3px;
   margin-right: -10px;
-  border-color: #175e8f;
+  border-color: #0077b5;
 }
 
 .home #content .icons a img.img-top {
@@ -392,7 +392,7 @@ header #logo img {
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
-  border-color: #175e8f;
+  border-color: #0077b5;
   margin-left: 3px;
   margin-right: -10px;
 }
@@ -411,11 +411,11 @@ header #logo img {
 }
 
 .home #content .icons a:hover {
-  color: #175e8f;
+  color: #0077b5;
 }
 /*contactme*/
 .contactme {
-  background-image: url("https://github.com/johnnazer/njmierportfolio/blob/main/images/contactbg.png");
+  background-image: url("/images/contactbg.png");
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 2000px #dededede;
