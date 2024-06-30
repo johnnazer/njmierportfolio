@@ -56,13 +56,13 @@ form{
   text-align: left;
   font-size: 3.5rem;
   color: #175E8F;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 #heading span {
   text-transform: uppercase;
-  color: #87f3fe;
+  color: #175E8F;
 }
 #home-heading {
   text-align: center;
@@ -71,8 +71,19 @@ form{
   margin-bottom: 3rem;
   text-transform: uppercase;
 }
+#services-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #175E8F;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
 
 #home-heading span {
+  text-transform: uppercase;
+  color: 175E8F;
+}
+#services-heading span {
   text-transform: uppercase;
   color: 175E8F;
 }
@@ -264,7 +275,7 @@ header nav ul li a:hover {
 
 header .fa-bars {
   font-size: 3rem;
-  color: #E5E5E5;
+  color: #727272;
   cursor: pointer;
   z-index: 10;
   display: none;
@@ -415,10 +426,9 @@ header #logo img {
 }
 /*contactme*/
 .contactme {
-  background-image: url("/images/contactbg.png");
+  background-image: url("../images/contactbg.webp");
   background-size: cover;
   background-position: center;
-  box-shadow: inset 0 0 0 2000px #dededede;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,7 +463,7 @@ header #logo img {
 .contactme #content span {
   font-size: 3.5rem;
   font-weight: 600;
-  color: #87f3fe;
+  color: #175E8F;
   padding: .5rem 0;
   text-transform: uppercase;
 }
@@ -494,10 +504,11 @@ header #logo img {
 
 .about .row .info-container h1 {
   font-size: 2.5rem;
-  color: #fff;
+  color: #175e8f;
   text-transform: capitalize;
   padding-bottom: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+  padding-top: 10px;
 }
 
 .about .row .info-container .box-container {
@@ -518,16 +529,24 @@ header #logo img {
 
 .about .row .info-container h3,h2 {
   font-size: 1.7rem;
-  color: #fff;
+  color: #000000;
   padding: 1rem 0;
   font-weight: normal;
 }
 .about p {
   font-size: 1.5rem;
-  color: #fff;
+  color: #000000;
   padding: 1rem 0;
   font-weight: normal;
   text-align: center;
+}
+p.aboutinfo{
+  font-size: 1.5rem;
+  color: #000000;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  font-weight: normal;
+  text-align: justify;
 }
 
 .about .row .count-container {
@@ -548,7 +567,7 @@ header #logo img {
           flex: 1 1 20rem;
   padding: 2rem 2rem;
   border-radius: 0rem;
-  background: #1a1a1a;
+  background: #e2e2e2bf;
 }
 
 .about .row .count-container .box h3 {
@@ -603,33 +622,38 @@ header #logo img {
   padding: 0rem 9%;
   margin-bottom: 4rem;
   background: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.services .box-container {
+.services .box-container{
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: .1rem;
+  gap: 1.5rem;
 }
-.services .box-container .box {
+.services .box-container .box{
   padding: 2rem;
     text-align: center;
-    background: #ffffff;
+    background: #eff8ff;
     border: solid;
-    border-color: #175e8f;
-    border-radius: 10px;
+    border-color: #eff8ff;
+    border-radius: 15px;
     border-width: medium;
+
+    box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
 }
 
 .services .box-container .box:hover {
-  background: #fff;
+  background: #175e8f;
   border-color: #175e8f;
 }
 
 .services .box-container .box:hover h3 {
-  color: #0d0d0d;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .services .box-container .box img {
@@ -640,7 +664,7 @@ header #logo img {
 .services .box-container .box h3 {
   color: #000000;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -655,7 +679,7 @@ header #logo img {
   background-color: #175e8f;
 }
 .softwares .box-container {
-  padding: 50px 0px 50px 0px;
+  padding: 20px 0px 20px 0px;
 }
 .softwares .box-container .box-border{
   display: -ms-grid;
@@ -686,7 +710,7 @@ header #logo img {
   text-align: left;
 }
 .portfolio-home p {
-  font-size: 1.5rem;
+  font-size: 0rem;
   font-weight: 400;
   color: #ffffff;
   line-height: 2;
@@ -789,18 +813,19 @@ header #logo img {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
-  color: #aaa;
+  color: #272727;
 }
 
 .portfolio .box-container .box .content a {
   font-size: 1.5rem;
-  color: #175E8F;
+  color: #3d3d3d;
   text-align: left;
+  text-decoration: underline;
   
 }
 
 .portfolio .box-container .box .content a:hover {
-  color: #fff;
+  color: #175E8F;
 }
 
 .portfolio-home .box-container {
@@ -897,19 +922,19 @@ header #logo img {
 .myservices .box-container .box {
   padding: 2rem;
   text-align: center;
-  background: #1a1a1a;
+  background: #eff8ff;
   border-radius: .5rem;
 }
 
 .myservices .box-container .box:hover {
-  background: #fff;
+  background: #175E8F;
 }
 
 .myservices .box-container .box:hover h3 {
-  color: #0d0d0d;
+  color: #ffffff;
 }
 .myservices .box-container .box:hover p {
-  color: #0d0d0d;
+  color: #ffffff;
 }
 
 .myservices .box-container .box img {
@@ -918,13 +943,13 @@ header #logo img {
 }
 
 .myservices .box-container .box h3 {
-  color: #fff;
+  color: #000000;
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
 }
 .myservices .box-container .box p {
-  color: #fff;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -952,7 +977,7 @@ header #logo img {
   .contact .row #info-container h1 {
     font-size: 2.5rem;
     text-transform: capitalize;
-    color: #fff;
+    color: #000000;
     padding-bottom: 1rem;
     font-weight: 400;
   }
@@ -960,7 +985,7 @@ header #logo img {
   .contact .row #info-container a.emailme {
     font-size: 1.5rem;
     line-height: 2;
-    color: #aaa;
+    color: #000000;
     padding: 1rem 0;
   }
 
@@ -982,7 +1007,7 @@ header #logo img {
 
   .contact .row #info-container .box-container .box h3 {
     font-size: 2rem;
-    color: #fff;
+    color: #000000;
   }
 
 .contact .row #contact-form {
@@ -1011,10 +1036,10 @@ header #logo img {
   border-radius: 5rem;
   padding: 1.2rem 1.8rem;
   font-size: 1.6rem;
-  color: #fff;
+  color: #efefef;
   text-transform: none;
   margin: .7rem 0;
-  background: #1a1a1a;
+  background: #eff8ff;
 }
 
 .contact .row #contact-form textarea {
@@ -1027,11 +1052,19 @@ header #logo img {
 .contact .row #contact-form .btn {
   padding: 1rem 3rem;
   cursor: pointer;
+  background: #175E8F;
+  color: #ffffff;
+  border-color: #175E8F;
+  border: solid;
+  font-weight: 700;
 }
 
 .contact .row #contact-form .btn:hover {
-  background: #fff;
-  color: #0d0d0d;
+  background: #eff8ff;
+  color: #175E8F;
+  border-color: #175E8F;
+  border: solid;
+  font-weight: 700;
 }
 
 .footer{
@@ -1117,7 +1150,7 @@ header #logo img {
   text-decoration: none;
   font-size: 3rem;
   margin: 0 .6rem;
-  color: #E5E5E5;
+  color: #0077b5;
 }
 
 .contact .row #info-container .icons a img {
@@ -1126,7 +1159,7 @@ header #logo img {
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
-  border-color: #ffffff;
+  border-color: 0077b5;
   margin-left: 3px;
   margin-right: -10px;
 }
@@ -1190,7 +1223,7 @@ h3.contact-info{
     display: none;
   }
   .services{
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
     margin-bottom: 10rem;
   }
   .myservices{
@@ -1277,6 +1310,7 @@ h3.contact-info{
   }
   header nav ul li a {
     font-size: 3.2rem;
+    color: #fff;
   }
   header nav ul li a.button {
     background-color: #175E8F;
@@ -1318,7 +1352,7 @@ h3.contact-info{
     margin-bottom: 1rem;
   }
   .services{
-    padding: 0rem 2rem;
+    padding: 4rem 2rem;
     margin-bottom: 10rem;
   }
   .myservices{
@@ -1451,6 +1485,10 @@ h3.contact-info{
   .about {
     padding: 15rem 2rem;
   }
+  p.aboutinfo{
+    padding-right: 0px;
+    }
+  
   .contact {
     padding: 15rem 2rem;
   }
