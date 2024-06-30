@@ -217,7 +217,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: #212121d6;
+  background: #ffffff7a;
   z-index: 2;
   
 }
@@ -373,7 +373,7 @@ header #logo img {
   text-decoration: none;
   font-size: 3rem;
   margin: 0 .6rem;
-  color: #E5E5E5;
+  color: #1e72ae;
 }
 
 .home #content .icons a img {
@@ -602,7 +602,7 @@ header #logo img {
 .services{
   padding: 0rem 9%;
   margin-bottom: 4rem;
-  background: #1a1a1a;
+  background: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -615,13 +615,17 @@ header #logo img {
 }
 .services .box-container .box {
   padding: 2rem;
-  text-align: center;
-  background: #1a1a1a;
-  border-radius: .5rem;
+    text-align: center;
+    background: #175e8f;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: medium;
 }
 
 .services .box-container .box:hover {
   background: #fff;
+  border-color: #175e8f;
 }
 
 .services .box-container .box:hover h3 {
