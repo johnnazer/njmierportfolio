@@ -74,7 +74,7 @@ form{
 
 #home-heading span {
   text-transform: uppercase;
-  color: #87f3fe;
+  color: 175E8F;
 }
 #heading-home-portfolio {
   text-align: center;
@@ -86,7 +86,7 @@ form{
 
 #heading-home-portfolio span {
   text-transform: uppercase;
-  color: #87f3fe;
+  color: 175E8F;
 }
 
 .btn {
@@ -382,7 +382,7 @@ header #logo img {
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
-  border-color: #ffffff;
+  border-color: #175e8f;
   margin-left: 3px;
   margin-right: -10px;
 }
