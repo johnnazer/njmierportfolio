@@ -1043,10 +1043,11 @@ p.aboutinfo{
   border-radius: 5rem;
   padding: 1.2rem 1.8rem;
   font-size: 1.6rem;
-  color: #efefef;
+  color: #000000;
   text-transform: none;
   margin: .7rem 0;
   background: #eff8ff;
+  border-color: #175E8F;
 }
 
 .contact .row #contact-form textarea {
