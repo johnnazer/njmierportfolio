@@ -576,18 +576,18 @@ p.aboutinfo{
           flex: 1 1 20rem;
   padding: 2rem 2rem;
   border-radius: 0rem;
-  background: #e2e2e2bf;
+  background: #1e72ae;
 }
 
 .about .row .count-container .box h3 {
   font-size: 5rem;
-  color: #175E8F;
+  color: #ffffff;
   text-align: center;
 }
 
 .about .row .count-container .box p {
   font-size: 2rem;
-  color: #aaa;
+  color: #ffffff;
 }
 
 .skills .box-container {
@@ -1064,9 +1064,9 @@ p.aboutinfo{
 .contact .row #contact-form .btn {
   padding: 1rem 3rem;
   cursor: pointer;
-  background: #175E8F;
+  background: #3d3d3d;
   color: #ffffff;
-  border-color: #175E8F;
+  border-color: #3d3d3d;
   border: solid;
   font-weight: 700;
 }
@@ -1077,6 +1077,7 @@ p.aboutinfo{
   border-color: #175E8F;
   border: solid;
   font-weight: 700;
+  border-color: #ffffff;
 }
 
 .footer{
