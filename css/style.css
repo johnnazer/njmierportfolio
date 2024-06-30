@@ -840,7 +840,7 @@ header #logo img {
   left: 0;
   height: 90%;
   width: 100%;
-  background: #1a1a1af0;
+  background: #175E8F;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -877,7 +877,7 @@ header #logo img {
 
 .portfolio-home .box-container .box .content a {
   font-size: 2rem;
-  color: #175E8F;
+  color: #ffffff;
 }
 
 .portfolio-home .box-container .box .content a:hover {
