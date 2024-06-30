@@ -35,9 +35,13 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
+  background-image: url("../images/mainbg.webp");
   background-color: #ffffff;
   padding-bottom: 0rem;
-  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {
@@ -182,6 +186,7 @@ form{
 }
 .portfolio-home{  
   text-align: center;
+  background-color: white;
 }
 
 .btn-mobile {
@@ -620,10 +625,10 @@ p.aboutinfo{
 
 .services{
   padding: 0rem 9%;
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
   background: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
 .services .box-container{
   display: -ms-grid;
@@ -853,18 +858,20 @@ p.aboutinfo{
 
 .portfolio-home .box-container .box img {
   height: 90%;
-  width: 100%;
+  width: 90%;
   -o-object-fit: cover;
      object-fit: cover;
-    
+     box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
 }
 
 .portfolio-home .box-container .box .content {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5%;
   height: 90%;
-  width: 100%;
+  width: 90%;
   background: #175d8fdb;
   display: -webkit-box;
   display: -ms-flexbox;
