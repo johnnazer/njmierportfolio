@@ -845,6 +845,40 @@ p.aboutinfo{
   color: #175E8F;
 }
 
+.portfolio .box-container .box-1 { /* box-1*/
+    height: 20rem;
+    text-align: left;
+    padding-bottom: 20rem;
+}
+
+.portfolio .box-container .box-1 .content h3 {
+  font-size: 2.5rem;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.portfolio .box-container .box-1 .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #272727;
+}
+
+.portfolio .box-container .box-1 .content a {
+  font-size: 1.5rem;
+  color: #3d3d3d;
+  text-align: left;
+  text-decoration: underline;
+  
+}
+
+.portfolio .box-container .box-1 .content a:hover {
+  color: #175E8F;
+}
+
 .portfolio-home .box-container {
   display: -ms-grid;
   display: grid;
@@ -855,14 +889,9 @@ p.aboutinfo{
 }
 
 .portfolio-home .box-container .box {
-  height: 60rem;
-  overflow: hidden;
-  position: relative;
+  height: 20rem; 
+  margin-top: -60px;
 }
-.portfolio-home .box-container .box1 {
-  display: none;
-}
-
 .portfolio-home .box-container .box:hover .content {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
@@ -929,6 +958,17 @@ p.aboutinfo{
   color: #ffffff;
   text-decoration: underline;
 }
+.s1{
+  font-size:24px; 
+  padding-left: 0px; 
+  font-style: italic;
+}
+.s2{
+    font-size: 18px; 
+    padding-left: 10px; 
+    font-style: italic;
+  }
+
 .myservices{
   padding: 12rem 9%;
 }
@@ -1263,7 +1303,19 @@ h3.contact-info{
   .contactme {
     padding: 8rem 2rem;
   }
-  
+  .portfolio {
+    margin-top: 30px;
+}
+  .s1{
+  font-size:24px; 
+  padding-left: 10px; 
+  font-style: italic;
+  }
+  .s2{
+    font-size: 18px; 
+    padding-left: 10px; 
+    font-style: italic;
+  }
 }
 
 @media (max-width: 850px) {
@@ -1504,7 +1556,44 @@ h3.contact-info{
     -webkit-transition: .2s linear;
     transition: .2s linear;
   }
-  .about {
+  .portfolio {
+    margin-top: 0px;
+}
+.portfolio .box-container .box {
+    padding-bottom: 30rem
+}
+.portfolio .box-container .box .content p {
+    font-size: 2rem;
+}
+.portfolio .box-container .box-1 .content p {
+    font-size: 2rem;
+}
+.portfolio .box-container .box .content a {
+    font-size: 2rem;
+    color: #10466d;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.portfolio .box-container .box-1 { /* box-1*/
+    height: 30rem;
+    text-align: left;
+    padding-bottom: 20rem;
+}
+.div-1 {
+  margin-top: 10px;
+}
+  .s1{
+  font-size:24px; 
+  padding-left: 0px; 
+  font-style: italic;
+  }
+  .s2{
+    font-size: 18px; 
+    padding-left: 10px; 
+    font-style: italic;
+  }
+    .about {
     padding: 15rem 2rem;
   }
   p.aboutinfo{
