@@ -844,7 +844,6 @@ p.aboutinfo{
 .portfolio .box-container .box .content a:hover {
   color: #175E8F;
 }
-
 .portfolio .box-container .box-1 {
     height: 20rem;
     text-align: left;
@@ -852,8 +851,8 @@ p.aboutinfo{
 }
 
 .portfolio .box-container .box-1 .content h3 {
-  font-size: 2.5rem !important;
-  color: #000000 !important;
+  font-size: 2.5rem;
+  color: #000000;
   text-transform: uppercase;
   font-weight: normal;
   text-align: left;
@@ -861,15 +860,15 @@ p.aboutinfo{
 }
 
 .portfolio .box-container .box-1 .content p {
-  padding: 1rem 0 !important;
-  font-size: 1.5rem !important;
+  padding: 1rem 0 ;
+  font-size: 1.5rem;
   line-height: 2;
-  color: #272727 !important;
+  color: #272727;
 }
 
 .portfolio .box-container .box-1 .content a {
-  font-size: 1.5rem !important;
-  color: #3d3d3d !important;
+  font-size: 1.5rem;
+  color: #3d3d3d;
   text-align: left;
   text-decoration: underline;
   
@@ -889,8 +888,12 @@ p.aboutinfo{
 }
 
 .portfolio-home .box-container .box {
-  height: 20rem; 
-  margin-top: -60px;
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio-home .box-container .box1 {
+  display: none;
 }
 .portfolio-home .box-container .box:hover .content {
   -webkit-transform: translateY(0%);
@@ -899,8 +902,8 @@ p.aboutinfo{
 
 .portfolio-home .box-container .box img {
   
-  height: 90%;
-  width: 90%;
+  height: 110%;
+  width: 95%;
   -o-object-fit: cover;
      object-fit: cover;
      box-shadow: 10px 10px 5px 0px rgba(226,226,226,0.75);
@@ -911,9 +914,9 @@ p.aboutinfo{
 .portfolio-home .box-container .box .content {
   position: absolute;
   top: 0;
-  left: 5%;
-  height: 90%;
-  width: 90%;
+  left: 2.5%;
+  height: 110%;
+  width: 95%;
   background: #175d8fdb;
   display: -webkit-box;
   display: -ms-flexbox;
