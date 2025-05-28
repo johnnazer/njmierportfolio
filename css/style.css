@@ -902,7 +902,7 @@ p.aboutinfo{
 
 .portfolio-home .box-container .box img {
   
-  height: 140%;
+  height: 120%;
   width: 95%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1525,7 +1525,7 @@ h3.contact-info{
   }
   
   .portfolio-home .box-container .box img {
-    height: 120%;
+    height: 140%;
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
