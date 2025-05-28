@@ -845,15 +845,15 @@ p.aboutinfo{
   color: #175E8F;
 }
 
-.portfolio .box-container .box-1 { /* box-1*/
+.portfolio .box-container .box-1 {
     height: 20rem;
     text-align: left;
     padding-bottom: 20rem;
 }
 
 .portfolio .box-container .box-1 .content h3 {
-  font-size: 2.5rem;
-  color: #000000;
+  font-size: 2.5rem !important;
+  color: #000000 !important;
   text-transform: uppercase;
   font-weight: normal;
   text-align: left;
@@ -861,15 +861,15 @@ p.aboutinfo{
 }
 
 .portfolio .box-container .box-1 .content p {
-  padding: 1rem 0;
-  font-size: 1.5rem;
+  padding: 1rem 0 !important;
+  font-size: 1.5rem !important;
   line-height: 2;
-  color: #272727;
+  color: #272727 !important;
 }
 
 .portfolio .box-container .box-1 .content a {
-  font-size: 1.5rem;
-  color: #3d3d3d;
+  font-size: 1.5rem !important;
+  color: #3d3d3d !important;
   text-align: left;
   text-decoration: underline;
   
