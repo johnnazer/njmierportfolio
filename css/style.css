@@ -806,6 +806,14 @@ p.aboutinfo{
   -o-object-fit: cover;
      object-fit: cover;
 }
+.portfolio .box-container .box .img2025 {
+  height: 100%;
+  width: 100%;
+  object-position: left top;
+  padding: 0 0 30px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 
 
@@ -847,7 +855,7 @@ p.aboutinfo{
 }
 
 .portfolio-home .box-container .box {
-  height: 50rem;
+  height: 60rem;
   overflow: hidden;
   position: relative;
 }
@@ -861,6 +869,7 @@ p.aboutinfo{
 }
 
 .portfolio-home .box-container .box img {
+  
   height: 90%;
   width: 90%;
   -o-object-fit: cover;
